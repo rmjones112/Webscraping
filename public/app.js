@@ -7,7 +7,9 @@ $.getJSON("/articles", function(data) {
     $("#articles").append("<p data-id='" + data[i]._id + "'>" + data[i].title + "<br />" + data[i].link + "</p>");
   }
 });
-
+//could wrap in anchor tag to view links 
+//to display data.i 
+//use concatination to break out of string 
 
 // Whenever someone clicks a p tag
 $(document).on("click", "p", function() {
